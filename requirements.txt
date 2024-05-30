@@ -1,0 +1,4 @@
+streamlit
+requests
+deepgram-sdk
+python-dotenv
