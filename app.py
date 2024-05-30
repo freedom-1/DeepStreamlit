@@ -76,7 +76,7 @@ def transcribe_speech_url(api_key, audio_url):
 st.title("♻️ Deep Recognition")
 
 #Chap yondagi hodisalar
-st.sidebar.markdown("#### 👇👇 Please enter your API key 👇👇")
+st.sidebar.markdown("#### 👇👇 Please enter your <a href='https://console.deepgram.com/signup?jump=keys'>API key</a> 👇👇", unsafe_allow_html=True)
 api_keys = st.sidebar.text_input("Token", placeholder="API KEY", help="To create your first API key refer to our Guide Creating API Keys")
 
 #3 ta tabulatsiya
