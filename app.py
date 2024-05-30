@@ -77,7 +77,7 @@ st.title("♻️ Deep Recognition")
 
 #Chap yondagi hodisalar
 st.sidebar.markdown("#### 👇👇 Please enter your API key 👇👇")
-api_keys = st.sidebar.text_input("Token", placeholder="API KEY")
+api_keys = st.sidebar.text_input("Token", placeholder="API KEY", help="To create your first API key refer to our Guide Creating API Keys")
 
 #3 ta tabulatsiya
 tts, stt, ttt = st.tabs(["⚡️ TTS (Text to Speech)", "⚡️ STT (Speech to Text)", "⚡️ TTT (Text to Text)"])
